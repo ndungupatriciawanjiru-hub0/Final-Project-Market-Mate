@@ -1,12 +1,9 @@
 
 #  Market Mate -Stock ,Inventory & Sales Manager for Mama mboga
 
-
 ##  Project Overview
 Market Mate is a simple browser-based web application designed to help mama mboga,small-scale vegetable and grocery sellers in Kenya,manage their roadside or kiosk businesses more effectively.
 It allows users to add products, track stock levels, record daily sales, and view key summaries (total items ), with all data stored locally using localStorage for offline access.
-
-
 
 ### Problem Statement
 
@@ -27,7 +24,6 @@ Many mama mboga track stock and sales manually in notebooks or memory. This ofte
 
 ###### Pages Included
 
-
 1. Dashboard (index.html) – Welcome screen + summary stats cards (Total Items)
 2. Add Stock (add-stock.html) – Form to add new products with fields like name, quantity, buy price, sell price
 3. Sales (sales.html) – Page to record daily sales, select items and enter quantities sold
@@ -38,12 +34,10 @@ All pages share data via JavaScript and are linked through a clean navigation me
 
 ###### Technologies Used
 
-
 1. HTML5 – Semantic structure and accessibility
 2. CSS3 – Styling, Flexbox/Grid, media queries for responsive design
 3. JavaScript  – Form handling, validation, DOM updates, calculations, and localStorage
 4. Git & GitHub – Version control and project hosting
-
 
 ######  Data Persistence
 
@@ -63,7 +57,8 @@ All the inventory, stock value and sales records data are saved in the browser's
 
 
  ###### Live Demo
-
+ 
+ https://ndungupatriciawanjiru-hub0.github.io/Final-Project-Market-Mate/
 
 ###### Known Limitations
 1. Data is stored only in your browser (lost if cache is cleared, different device, or incognito mode)2.  No edit or delete options for products/sales yet
